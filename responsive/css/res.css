@@ -1,0 +1,6 @@
+
+@media all and (min-width: 300px){
+	.box{
+		background-color: yellow;
+	}
+}

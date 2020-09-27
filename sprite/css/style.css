@@ -1,0 +1,27 @@
+.sp{
+	width: 83px;
+	height: 73px;
+	margin: 100px;
+	
+	background-image: url('../images/sp.png');
+	background-position: 0 0;
+	transition: .5s;
+	border-radius: 50%;
+}
+
+	/*background-position: 0 -93px;*/
+.sp:hover{
+	background-position: 0 -93px;
+}
+
+.sp1{
+	width: 84px;
+	height: 84px;
+	margin: 100px;
+	background-image: url('../images/sp.png');
+	background-position: 335px 0px;
+	transition: .5s;
+}
+.sp1:hover{
+	background-position: 335px -83px;
+}

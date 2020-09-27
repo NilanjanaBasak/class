@@ -1,0 +1,92 @@
+.box{
+	width: 200px;
+	height: 200px;
+	margin: 200px auto;
+	position: relative;
+}
+.a{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	animation: a 3s infinite;
+}
+@keyframes a{
+	0%{
+		top: 0;
+		left: 0;
+	}
+	25%{
+		top: 0;
+		left: 100px;
+	}
+	50%{
+		top: 100px;
+		left: 100px;
+	}
+	75%{
+		top: 100px;
+		left: 0px;
+	}
+	100%{
+
+	}
+}
+
+
+
+.b{
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: 100px;
+	animation: b 3s infinite;
+}
+@keyframes b{
+	0%{
+		top: 0;
+		left: 100px;
+	}
+	25%{
+		top: 100px;
+		left: 100px;
+	}
+	50%{
+		top: 100px;
+		left: 0px;
+	}
+	75%{
+		top: 0px;
+		left: 0px;
+	}
+	100%{
+
+	}
+}
+
+.c{
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	border-radius: 50%;
+	position: absolute;
+	top: 100px;
+	left: 0;
+}
+.d{
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	border-radius: 50%;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+}
+
+
